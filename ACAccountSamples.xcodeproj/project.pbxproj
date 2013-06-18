@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7D72586176EA3D9008E8672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D72585176EA3D9008E8672 /* UIKit.framework */; };
+		B7D72588176EA3D9008E8672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D72587176EA3D9008E8672 /* Foundation.framework */; };
+		B7D7258A176EA3D9008E8672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D72589176EA3D9008E8672 /* CoreGraphics.framework */; };
+		B7D72590176EA3D9008E8672 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7D7258E176EA3D9008E8672 /* InfoPlist.strings */; };
+		B7D72592176EA3D9008E8672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D72591176EA3D9008E8672 /* main.m */; };
+		B7D72596176EA3D9008E8672 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D72595176EA3D9008E8672 /* STAppDelegate.m */; };
+		B7D72598176EA3D9008E8672 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D72597176EA3D9008E8672 /* Default.png */; };
+		B7D7259A176EA3D9008E8672 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D72599176EA3D9008E8672 /* Default@2x.png */; };
+		B7D7259C176EA3D9008E8672 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D7259B176EA3D9008E8672 /* Default-568h@2x.png */; };
+		B7D7259F176EA3D9008E8672 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D7259E176EA3D9008E8672 /* STViewController.m */; };
+		B7D725A2176EA3D9008E8672 /* STViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D725A0176EA3D9008E8672 /* STViewController.xib */; };
+		B7D725AE176EA4DC008E8672 /* STTwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D725AC176EA4DC008E8672 /* STTwitterViewController.m */; };
+		B7D725AF176EA4DC008E8672 /* STTwitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D725AD176EA4DC008E8672 /* STTwitterViewController.xib */; };
+		B7D725B1176EA829008E8672 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D725B0176EA829008E8672 /* Accounts.framework */; };
+		B7D725B3176EACF3008E8672 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D725B2176EACF3008E8672 /* Social.framework */; };
+		B7D725B7176EE4C9008E8672 /* STFacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D725B5176EE4C9008E8672 /* STFacebookViewController.m */; };
+		B7D725B8176EE4C9008E8672 /* STFacebookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D725B6176EE4C9008E8672 /* STFacebookViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7D72582176EA3D9008E8672 /* ACAccountSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACAccountSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D72585176EA3D9008E8672 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7D72587176EA3D9008E8672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7D72589176EA3D9008E8672 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7D7258D176EA3D9008E8672 /* ACAccountSamples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACAccountSamples-Info.plist"; sourceTree = "<group>"; };
+		B7D7258F176EA3D9008E8672 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7D72591176EA3D9008E8672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7D72593176EA3D9008E8672 /* ACAccountSamples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACAccountSamples-Prefix.pch"; sourceTree = "<group>"; };
+		B7D72594176EA3D9008E8672 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		B7D72595176EA3D9008E8672 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		B7D72597176EA3D9008E8672 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B7D72599176EA3D9008E8672 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B7D7259B176EA3D9008E8672 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B7D7259D176EA3D9008E8672 /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		B7D7259E176EA3D9008E8672 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		B7D725A1176EA3D9008E8672 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STViewController.xib; sourceTree = "<group>"; };
+		B7D725AB176EA4DC008E8672 /* STTwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterViewController.h; sourceTree = "<group>"; };
+		B7D725AC176EA4DC008E8672 /* STTwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterViewController.m; sourceTree = "<group>"; };
+		B7D725AD176EA4DC008E8672 /* STTwitterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STTwitterViewController.xib; sourceTree = "<group>"; };
+		B7D725B0176EA829008E8672 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		B7D725B2176EACF3008E8672 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B7D725B4176EE4C9008E8672 /* STFacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFacebookViewController.h; sourceTree = "<group>"; };
+		B7D725B5176EE4C9008E8672 /* STFacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFacebookViewController.m; sourceTree = "<group>"; };
+		B7D725B6176EE4C9008E8672 /* STFacebookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STFacebookViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7D7257F176EA3D9008E8672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D72586176EA3D9008E8672 /* UIKit.framework in Frameworks */,
+				B7D72588176EA3D9008E8672 /* Foundation.framework in Frameworks */,
+				B7D7258A176EA3D9008E8672 /* CoreGraphics.framework in Frameworks */,
+				B7D725B1176EA829008E8672 /* Accounts.framework in Frameworks */,
+				B7D725B3176EACF3008E8672 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7D72579176EA3D9008E8672 = {
+			isa = PBXGroup;
+			children = (
+				B7D7258B176EA3D9008E8672 /* ACAccountSamples */,
+				B7D72584176EA3D9008E8672 /* Frameworks */,
+				B7D72583176EA3D9008E8672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7D72583176EA3D9008E8672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7D72582176EA3D9008E8672 /* ACAccountSamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D72584176EA3D9008E8672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7D725B0176EA829008E8672 /* Accounts.framework */,
+				B7D725B2176EACF3008E8672 /* Social.framework */,
+				B7D72585176EA3D9008E8672 /* UIKit.framework */,
+				B7D72587176EA3D9008E8672 /* Foundation.framework */,
+				B7D72589176EA3D9008E8672 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7D7258B176EA3D9008E8672 /* ACAccountSamples */ = {
+			isa = PBXGroup;
+			children = (
+				B7D72594176EA3D9008E8672 /* STAppDelegate.h */,
+				B7D72595176EA3D9008E8672 /* STAppDelegate.m */,
+				B7D7259D176EA3D9008E8672 /* STViewController.h */,
+				B7D7259E176EA3D9008E8672 /* STViewController.m */,
+				B7D725A0176EA3D9008E8672 /* STViewController.xib */,
+				B7D725AB176EA4DC008E8672 /* STTwitterViewController.h */,
+				B7D725AC176EA4DC008E8672 /* STTwitterViewController.m */,
+				B7D725AD176EA4DC008E8672 /* STTwitterViewController.xib */,
+				B7D725B4176EE4C9008E8672 /* STFacebookViewController.h */,
+				B7D725B5176EE4C9008E8672 /* STFacebookViewController.m */,
+				B7D725B6176EE4C9008E8672 /* STFacebookViewController.xib */,
+				B7D7258C176EA3D9008E8672 /* Supporting Files */,
+			);
+			path = ACAccountSamples;
+			sourceTree = "<group>";
+		};
+		B7D7258C176EA3D9008E8672 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7D7258D176EA3D9008E8672 /* ACAccountSamples-Info.plist */,
+				B7D7258E176EA3D9008E8672 /* InfoPlist.strings */,
+				B7D72591176EA3D9008E8672 /* main.m */,
+				B7D72593176EA3D9008E8672 /* ACAccountSamples-Prefix.pch */,
+				B7D72597176EA3D9008E8672 /* Default.png */,
+				B7D72599176EA3D9008E8672 /* Default@2x.png */,
+				B7D7259B176EA3D9008E8672 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7D72581176EA3D9008E8672 /* ACAccountSamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D725A8176EA3D9008E8672 /* Build configuration list for PBXNativeTarget "ACAccountSamples" */;
+			buildPhases = (
+				B7D7257E176EA3D9008E8672 /* Sources */,
+				B7D7257F176EA3D9008E8672 /* Frameworks */,
+				B7D72580176EA3D9008E8672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACAccountSamples;
+			productName = ACAccountSamples;
+			productReference = B7D72582176EA3D9008E8672 /* ACAccountSamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D7257A176EA3D9008E8672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = stack3.net;
+			};
+			buildConfigurationList = B7D7257D176EA3D9008E8672 /* Build configuration list for PBXProject "ACAccountSamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7D72579176EA3D9008E8672;
+			productRefGroup = B7D72583176EA3D9008E8672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D72581176EA3D9008E8672 /* ACAccountSamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D72580176EA3D9008E8672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D72590176EA3D9008E8672 /* InfoPlist.strings in Resources */,
+				B7D72598176EA3D9008E8672 /* Default.png in Resources */,
+				B7D7259A176EA3D9008E8672 /* Default@2x.png in Resources */,
+				B7D7259C176EA3D9008E8672 /* Default-568h@2x.png in Resources */,
+				B7D725A2176EA3D9008E8672 /* STViewController.xib in Resources */,
+				B7D725AF176EA4DC008E8672 /* STTwitterViewController.xib in Resources */,
+				B7D725B8176EE4C9008E8672 /* STFacebookViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7D7257E176EA3D9008E8672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D72592176EA3D9008E8672 /* main.m in Sources */,
+				B7D72596176EA3D9008E8672 /* STAppDelegate.m in Sources */,
+				B7D7259F176EA3D9008E8672 /* STViewController.m in Sources */,
+				B7D725AE176EA4DC008E8672 /* STTwitterViewController.m in Sources */,
+				B7D725B7176EE4C9008E8672 /* STFacebookViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7D7258E176EA3D9008E8672 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D7258F176EA3D9008E8672 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7D725A0176EA3D9008E8672 /* STViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D725A1176EA3D9008E8672 /* en */,
+			);
+			name = STViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7D725A6176EA3D9008E8672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7D725A7176EA3D9008E8672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7D725A9176EA3D9008E8672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACAccountSamples/ACAccountSamples-Prefix.pch";
+				INFOPLIST_FILE = "ACAccountSamples/ACAccountSamples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7D725AA176EA3D9008E8672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACAccountSamples/ACAccountSamples-Prefix.pch";
+				INFOPLIST_FILE = "ACAccountSamples/ACAccountSamples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7D7257D176EA3D9008E8672 /* Build configuration list for PBXProject "ACAccountSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D725A6176EA3D9008E8672 /* Debug */,
+				B7D725A7176EA3D9008E8672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D725A8176EA3D9008E8672 /* Build configuration list for PBXNativeTarget "ACAccountSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D725A9176EA3D9008E8672 /* Debug */,
+				B7D725AA176EA3D9008E8672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7D7257A176EA3D9008E8672 /* Project object */;
+}
